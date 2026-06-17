@@ -1,0 +1,7 @@
+Libraries like "Pandas" and "Numpy" make data analysis less tedious, while others like "Tensorflow" and "Scikit" make machine learning and working with AI models much more accessible.
+
+In web development, Python frameworks like Django, FastAPI, and Flask let developers build scalable and secure back-end systems with minimal effort.
+
+In software testing, Python tools such as pytest are used to create reliable test suites, while system administrators rely on Python for server monitoring, log management, and system-level tasks.
+
+Libraries like Selenium and BeautifulSoup also make it easy to interact with websites, so you can scrape public data, automate tasks through a web UI, and even manage cloud deployments for your projects.
