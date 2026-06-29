@@ -35,3 +35,27 @@ desserts[1:3] # ('pie', 'cookies')
 
 developer_4 = ('Muhammad Hussain', 23, 'Python Developer')
 del developer_4[1] # TypeError: "tuple" object doesn't support item deletion
+
+programming_languages_2 = ('Rust', 'Java', 'Python', 'C++', 'Rust')
+programming_languages_2.count('Rust') # 2
+
+programming_languages_3 = ('Rust', 'Java', 'Python', 'C++', 'Rust')
+programming_languages_3.count('JavaScript') # 0
+
+programming_languages_4 = ('Rust', 'Java', 'Python', 'C++', 'Rust')
+programming_languages_4.count() # TypeError: tuple.count() takes exactly one argument (0 given)
+
+programming_languages_5 = ('Rust', 'Java', 'Python', 'C++', 'Rust')
+programming_languages_5.index('Java') # 1
+
+programming_languages_6 = ('Rust', 'Java', 'Python', 'C++', 'Rust')
+programming_languages_6.index('JavaScript') # ValueError: tuple.index(x): x not in tuple
+
+programming_languages_7 = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python')
+programming_languages_7.index('Python', 3) # 5
+
+programming_languages_8 = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python', 'JavaScript', 'Python')
+programming_languages_8.index('Python', 2, 5) # 2
+
+numbers = (13, 2, 78, 3, 45, 67, 18, 7)
+sorted(numbers) # [2, 3, 7, 13, 18, 45, 67, 78]
